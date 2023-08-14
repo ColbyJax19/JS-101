@@ -59,3 +59,6 @@ switch (operation) {
 
 // Print the result to the terminal.
 console.log(`${answer}`);
+// Ask the user if they'd like to perform another calculation
+prompt('Would you like to perform another calculation? (y/n)');
+let repeat = readline.question();

@@ -73,3 +73,68 @@
 
 // let nestedArray = ['Fred', 'Wilma', ['Barney', 'Betty'], ['Bambam', 'Pebbles']];
 // console.log(nestedArray.flat());
+
+// let flintstones = {
+//   Fred: 0,
+//   Wilma: 1,
+//   Barney: 2,
+//   Betty: 3,
+//   Bambam: 4,
+//   Pebbles: 5,
+// };
+// console.log(
+//   Object.entries(flintstones)
+//     .filter((pair) => pair[0] === 'Barney')
+//     .shift()
+// );
+
+// How would you check whether the objects assigned to variables numbers and table below are arrays?
+// let numbers = [1, 2, 3, 4]; // true
+// let table = { field1: 1, field2: 2, field3: 3, field4: 4 }; // false
+// console.log(Array.isArray(numbers));
+// console.log(Array.isArray(table));
+
+// Write a one-line expression to count the number of lower-case t characters in each of the following strings:
+// let statement1 = 'The Flintstones Rock!';
+// let statement2 = 'Easy come, easy go.';
+// console.log(statement1.split('').filter((char) => char === 't').length);
+// console.log(statement2.split('').filter((char) => char === 't').length);
+
+// Write three different ways to remove all of the elements from the following array:
+// let numbers = [1, 2, 3, 4];
+// // numbers.length = 0;
+// // while (numbers.length) {
+// //   numbers.pop();
+// // }
+// numbers.splice(0, numbers.length);
+// console.log(numbers);
+
+// The following function unnecessarily uses two return statements to return boolean values. Can you rewrite this function so it only has one return statement and does not explicitly use either true or false?
+// function isColorValid(color) {
+//   if (color === 'blue' || color === 'green') {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// function isColorValid(color) {
+//   return color === 'blue' || color === 'green';
+// }
+
+// for (let padding = 0; padding <= 10; padding++) {
+//   console.log(' '.repeat(padding) + 'The Flintstones Rock!');
+// }
+
+// let munstersDescription = 'The Munsters are creepy and spooky.';
+// console.log(
+//   munstersDescription
+//     .split('')
+//     .map(function (char) {
+//       if (char === char.toUpperCase()) {
+//         return char.toLowerCase();
+//       } else {
+//         return char.toUpperCase();
+//       }
+//     })
+//     .join('')
+// );

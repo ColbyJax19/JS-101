@@ -51,14 +51,113 @@
 
 // Explain the output of this code snippet and why it is so?
 
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] % 2 === 0) console.log(numbers[i]);
-}
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] % 2 === 0) console.log(numbers[i]);
+// }
 // User Case: The user wants to log to the console numbers that are even.
 
 // Implementation:
 // The numbers variable is declared and initialized to an array containing numerical values.
 // The for loop iterates through the array, creating the local variable i to represent the array's currently evaluated index.
 // If the remainder of that value after being divided by 2 is strictly equal to 0, the number is logged to the console.
+
+// let str1 =
+//   'Few things in life are as important as house training your pet dinosaur.';
+// let str2 = 'Fred and Wilma have a pet dinosaur named Dino.';
+
+// console.log(str1.includes('Dino'));
+// console.log(str2.includes('Dino'));
+
+// // let advice =
+// //   'Few things in life are as important as house training your pet dinosaur.';
+// // console.log(advice.slice(advice.indexOf('house')));
+
+// let advice =
+//   'Few things in life are as important as house training your pet dinosaur.';
+// console.log(advice.replace('important', 'urgent'));
+
+// let numbers = [1, 2, 3, 4, 5];
+// // numbers.reverse();
+// // console.log(numbers); // [ 5, 4, 3, 2, 1 ]
+// // let reversedArray = numbers.slice().reverse();
+// // console.log(reversedArray);
+// let reversedArray = [...numbers].sort((num1, num2) => num2 - num1);
+// console.log(reversedArray);
+
+// let numbers = [1, 2, 3, 4, 5, 15, 16, 17, 95, 96, 99];
+
+// let number1 = 8; // false
+// let number2 = 95; // true
+
+// console.log(numbers.includes(number1));
+// console.log(numbers.includes(number2));
+
+// let famousWords = 'seven years ago...';
+// console.log('Four score and ' + famousWords);
+// let start = 'Four score and ';
+// console.log(start.concat(famousWords));
+
+// let array = [1, 2, 3, 4, 5];
+// console.log(array.splice(2, 1));
+
+// let flintstones = ['Fred', 'Wilma'];
+// flintstones.push(['Barney', 'Betty']);
+// flintstones.push(['Bambam', 'Pebbles']);
+// console.log(flintstones);
+// flintstones.flat(1);
+// console.log(flintstones);
+
+// let flintstones = {
+//   Fred: 0,
+//   Wilma: 1,
+//   Barney: 2,
+//   Betty: 3,
+//   Bambam: 4,
+//   Pebbles: 5,
+// };
+// console.log(Object.entries(flintstones)[2]);
+
+// let numbers = [1, 2, 3, 4]; // true
+// let table = { field1: 1, field2: 2, field3: 3, field4: 4 }; // false
+// console.log(Array.isArray(numbers));
+// console.log(Array.isArray(table));
+
+// let numbers = [1, 2, 3, 4];
+// numbers.length = 0;
+// console.log(numbers);
+// while (numbers.length) {
+//   numbers.pop();
+// }
+// console.log(numbers);
+// numbers.splice(0, numbers.length);
+// console.log(numbers);
+
+// function isColorValid(color) {
+//   return color === 'blue' || color === 'red'
+
+// }
+
+// function factors(number) {
+//   let divisor = number;
+//   let factors = [];
+//   do {
+//     if (number % divisor === 0) {
+//       factors.push(number / divisor);
+//     }
+//     divisor -= 1;
+//   } while (divisor !== 0);
+//   return factors;
+// }
+
+// function factors(number) {
+//   let divisor = number;
+//   let factors = [];
+//   while (divisor > 0) {
+//     if (number % divisor === 0) {
+//       factors.push(number / divisor);
+//     }
+//     divisor -= 1;
+//   }
+// }

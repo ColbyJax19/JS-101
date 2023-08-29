@@ -51,23 +51,3 @@
 // }
 // let composedFunction = compose(double, addOne);
 // console.log(composedFunction(20));
-
-const isEmpty = (value) => {
-  if (value.length > 0) return false;
-  if (value.length === 0) return true;
-  console.log(Object.keys(value).length === 0);
-};
-
-let arr = [];
-arr['foo'] = 'bar';
-arr[-1] = 'boo';
-
-let sparseArr = [];
-sparseArr.length = 3;
-
-console.log(isEmpty([]));
-console.log(isEmpty(arr));
-console.log(isEmpty(['Janice']));
-console.log(isEmpty(sparseArr));
-
-// isEmpty is a function expression that takes in one parameter, value. Inside of the function body, we first have an if statment that evaluates whether the argument passed to the funciton has a length greater than 0. If this statment is truthy, we return false.

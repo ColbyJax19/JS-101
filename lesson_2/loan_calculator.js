@@ -29,6 +29,7 @@ while (invalidNumber(monthlyRate)) {
 prompt('How long is the loan duration, in months?');
 let loanDuration = readline.question();
 
+
 //Calculate
 
 let monthlyPayment =
@@ -36,3 +37,5 @@ let monthlyPayment =
 
 //print results
 console.log(`Your Monthly Payment will be $ ${monthlyPayment.toFixed(2)}`);
+
+
